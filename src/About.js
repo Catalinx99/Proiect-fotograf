@@ -16,7 +16,7 @@ const About = () => {
          <span> 0753667033 Cosmin (Iași/Bacău/Neamț) <br/></span>
 
        <h3> EMAIL </h3>
-        raian.visual@yahoo.com
+       <p> raian.visual@yahoo.com</p>
     </p> 
       <p>
         <h3>PROFESIONALISM</h3>

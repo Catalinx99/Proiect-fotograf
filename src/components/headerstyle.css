@@ -55,3 +55,20 @@ ul {
     display: none;
   }
 }
+
+@media only screen and (max-width: 348px) {
+ li a {
+    padding: 0px;
+    margin: 2px;
+
+  }
+}
+@media only screen and (max-width: 254px) {
+  .menu {
+     display: block;
+ 
+   }
+   .logo{
+     height: 80px;
+   }
+ }
