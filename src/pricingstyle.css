@@ -1,0 +1,28 @@
+.liste{
+    background-image: linear-gradient(to bottom right, #85adad, #293d3d);
+    display: -webkit-box;
+    flex-wrap: wrap;
+}
+
+.lista1{
+
+    color: wheat;
+    border: 1px solid black;
+    width: 25%;
+    text-align: center;
+}
+li{
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .lista1 {
+      width: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .lista1 {
+      width: 100%;
+    }
+  }

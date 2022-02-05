@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+.headersss{
+  height: 100px;
+  background-image: linear-gradient(to bottom right, #85adad, #293d3d);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    border: 1px solid #293d3d;
+  }
+.logo{
+    float: left;
+}
+
+.signature{
+  font-family: 'Tangerine' , sans-serif;
+  font-size: 50px;
+  margin: 0px;
+  padding-top: 30px;
+  float: left;
+
+}
+
+.hr {
+  margin: 0px;
+}
+
+@media only screen and (max-width: 510px) {
+  .signature {
+    display: none;
+  }
+}

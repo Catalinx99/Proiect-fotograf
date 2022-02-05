@@ -1,0 +1,24 @@
+.footer {
+    height: 80px;
+    background-image: linear-gradient(to bottom right, #85adad, #293d3d);
+
+}
+.hr {
+    margin: 0px;
+}
+ a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 10px;
+  }
+
+ .footer a:hover{
+    transform: scale(0.90);
+  }
+
+.si {
+  float: right;
+}
