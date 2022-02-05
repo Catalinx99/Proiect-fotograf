@@ -7,7 +7,7 @@ const Header = () => {
          <img className='logo' src={logo} alt='logo' />
          <p className='signature'>By Cata</p> 
       <ul className='menu'>
-        <li><a href="/home">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="/pricing">Pricing</a></li>
         <li><a href="/about">About</a></li>
      </ul>
